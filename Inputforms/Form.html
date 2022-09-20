@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic inpute type</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+
+<body>
+    <form action="">
+        <header class="headerCointer">
+            <h1>Html file form inpute fields</h1>
+        </header>
+        <div>
+            <label for="text">Text input type for name</label>
+            <input type="text" id="text" name="text">
+            <error-output class="text-error" for="text"></error-output>
+        </div>
+        <div>
+            <label for="pwd">Password inpute type</label>
+            <input type="password" name="pwd" id="pwd">
+        </div>
+        <div>
+            <label for="email">Email inpute type</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="url">url inpute type</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <div>
+            <label for="number">Number inpute type</label>
+            <input type="number" name="number" id="number">
+        </div>
+        <div>
+            <label for="tel">Tel inpute type</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+        <div>
+            <label for="search">Search inpute type</label>
+            <input type="search" name="search" id="search">
+            
+        </div>
+        <div class="nativeDateTimePicker">
+            <label for="party">Choose a Date and Time</label>
+            <input type="datetime-local" name="bday" id="party">
+            <span class="validity"></span>
+        </div>
+        <div>
+            <label for="salary">Choose your salary</label>
+            <input type="range" name="search" id="search" min="30000" max="500000" step="100" value="40000">
+            <output class="salary-output" for="salary">40000</output>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>
