@@ -38,3 +38,14 @@ text.error{
     font-size: 12px;
     font-style: italic;
 }
+button{
+    width: 70%;
+    margin: 0 auto;
+}
+@media screen and (min-width : 600px) {
+    .headerCointer {
+        grid-template-areas: "headerCointer headerCointer";
+    }
+
+    
+}
